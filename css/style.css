@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   color: var(--cor-letras);
+  font-family: "Cabin", sans-serif;
 }
 
 :root {
@@ -229,5 +230,38 @@ main {
 
 #git{
   float: right;
+}
+
+
+.main_text{
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.fundo_text{
+  width: 35rem;
+  height: 42rem;
+  background-color: var(--cor-secundaria);
+  box-shadow: 10px 10px #6657C5;
+}
+
+
+
+.text_p{
+  display: flex;
+  justify-content: center;
+  padding-top: 84px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.titulo_sinopse{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 30px;
 }
 
